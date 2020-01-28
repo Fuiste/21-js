@@ -2,6 +2,10 @@
   "name": "21-js",
   "version": "0.0.1",
   "description": "A node.js blackjack client",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
   "main": "bin/index.js",
   "repository": "https://github.com/Fuiste/21-js.git",
   "author": "Rudy Pelrine <drawncloser@gmail.com>",
