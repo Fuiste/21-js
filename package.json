@@ -4,7 +4,8 @@
   "description": "A node.js blackjack client",
   "scripts": {
     "build": "tsc",
-    "watch": "tsc --watch"
+    "watch": "tsc --watch",
+    "debug": "tsc --watch --noemit"
   },
   "main": "bin/index.js",
   "repository": "https://github.com/Fuiste/21-js.git",
