@@ -1,0 +1,13 @@
+{
+  "name": "21-js",
+  "version": "0.0.1",
+  "description": "A node.js blackjack client",
+  "main": "bin/index.js",
+  "repository": "https://github.com/Fuiste/21-js.git",
+  "author": "Rudy Pelrine <drawncloser@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.5.1",
+    "typescript": "^3.7.5"
+  }
+}

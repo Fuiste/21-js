@@ -1,0 +1,11 @@
+{
+  "files.exclude": {
+    "**/node_modules/**": true,
+    "**/npm-packages-offline-cache/": true,
+    "**/.jest/": true,
+  },
+  "editor.formatOnSave": true,
+  "prettier.trailingComma": "es5",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.tabSize": 2
+}
