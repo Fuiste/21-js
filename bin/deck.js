@@ -17,4 +17,9 @@ exports.baseDeck = card_1.cardNames.reduce(function (deck, name) { return __spre
  * Returns a shuffled deck of cards
  */
 exports.shuffledDeck = function () { return util_1.shuffle(exports.baseDeck); };
+exports.hasCards = function (deck) { return deck.length > 0; };
+exports.draw = function (deck) { return ({
+    card: deck[0],
+    remaining: deck.slice(1),
+}); };
 //# sourceMappingURL=deck.js.map

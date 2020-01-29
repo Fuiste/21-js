@@ -13,3 +13,10 @@ export const baseDeck: Card[] = cardNames.reduce(
  * Returns a shuffled deck of cards
  */
 export const shuffledDeck = () => shuffle(baseDeck);
+
+export const hasCards = (deck: Card[]): boolean => deck.length > 0;
+
+export const draw = (deck: Card[]): { card: Card; remaining: Card[] } => ({
+  card: deck[0],
+  remaining: deck.slice(1),
+});
