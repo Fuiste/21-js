@@ -5,14 +5,37 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",
-    "debug": "tsc --watch --noemit"
+    "debug": "tsc --watch --noemit",
+    "test": "jest"
   },
   "main": "bin/index.js",
   "repository": "https://github.com/Fuiste/21-js.git",
   "author": "Rudy Pelrine <drawncloser@gmail.com>",
   "license": "MIT",
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "roots": [
+      "<rootDir>/src"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
   "devDependencies": {
+    "@types/jest": "^25.1.0",
     "@types/node": "^13.5.1",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.0.0",
     "typescript": "^3.7.5"
   }
 }

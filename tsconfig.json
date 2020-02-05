@@ -14,5 +14,6 @@
     "types": ["node"],
     "esModuleInterop": true,
     "resolveJsonModule": true
-  }
+  },
+  "exclude": ["node_modules", "bin", "**/*.test.ts"]
 }
